@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.name = "SKPAdBenefit"
-  s.summary = "SKPAdBenefit released 2023-03-07 09:00"
+  s.summary = "SKPAdBenefit for ima  released 2023-03-07 10:00"
   s.description = "The SKPAdBenefit SDK makes it easy to serve advertisements with benefit in your iOS app. It supports native ads and video ads. It provides powerful and customizable UI elements to make the ads look great in your app."
   s.version = "1.0.0"
   s.license = { :type => "SKPlanet", :text => "Copyright 2018 SK Planet." }
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 4.0'
   s.dependency 'SDWebImage', '~> 5.0'
   s.dependency 'SDWebImageWebPCoder'
-  s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.12.1'
+  s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.14.5'
   s.dependency 'ReactiveObjC', '~> 3.1.1'
 
   s.vendored_frameworks = ['SKPAdBenefit.framework', 'SKPAdBenefitNative.framework', 'SKPAdBenefitInterstitial.framework', 'SKPAdBenefitFeed.framework', 'SKPAdBenefitWebInterface.framework']
