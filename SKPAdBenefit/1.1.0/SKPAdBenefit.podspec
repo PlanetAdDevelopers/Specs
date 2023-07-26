@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.name = "SKPAdBenefit"
-  s.summary = "SKPAdBenefit released 2023-07-24 2"
+  s.summary = "SKPAdBenefit released 2023-07-26 1"
   s.description = "The SKPAdBenefit SDK makes it easy to serve advertisements with benefit in your iOS app. It supports native ads and video ads. It provides powerful and customizable UI elements to make the ads look great in your app."
   s.version = "1.1.0"
   s.license = { :type => "SKPlanet", :text => "Copyright 2018 SK Planet." }
