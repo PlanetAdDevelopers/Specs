@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.name = "SKPAdBenefit"
-  s.summary = "SKPAdBenefit released 2026-01-08 (4)-3"
+  s.summary = "SKPAdBenefit released 2026-01-08 (5)"
   s.description = "The SKPAdBenefit SDK makes it easy to serve advertisements with benefit in your iOS app. It supports native ads and video ads. It provides powerful and customizable UI elements to make the ads look great in your app."
   s.version = "1.14.2"
   s.license = { :type => "SKPlanet", :text => "Copyright 2018 SK Planet." }
@@ -15,6 +15,10 @@ Pod::Spec.new do |s|
     :http => "https://storage.googleapis.com/planetad/v1.14.2/SKPAdBenefit.zip"
   }
   
+  s.dependency 'SDWebImage', '~> 5.21'
+  s.dependency 'SDWebImageWebPCoder', '~> 0.15'
+  s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.28'
+
   s.vendored_frameworks = [
     'SKPAdBenefit.xcframework',
     'SKPAdBenefitNative.xcframework',
